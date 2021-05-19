@@ -12,6 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+<<<<<<< HEAD
       return tutorials.map(element => {
       element = element.split(" ");
       for(let i = 0; i < element.length; i++){
@@ -20,3 +21,11 @@ const titleCased = () => {
    return element.join(" ");
    });
 };
+=======
+        return tutorials.map(item => {
+      let sentence = item.split(" ");
+      tutorials.forEach(sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1));
+   return sentence.join(" ");
+   })
+}
+>>>>>>> 0a0b5b9476be8be4b51a13f36462abd00ebcfa4d
